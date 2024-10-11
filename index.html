@@ -7,27 +7,26 @@
     <title>Calculadora de IMC</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="total">
 
     <div id="page">
     <form onsubmit="return calcular(event)">
         <label>Digite seu peso</label>
         <input type="text" name="peso" id="peso" placeholder="Exemplo 65.7"></br></br>
         
-        <label>Digite sua altura</label>
+        <label>  Digite sua altura</label>
         <input type="text" name="altura" id="altura" placeholder="Exemplo 1.90"></br></br>
 
-        <input type="submit" value="Calcular IMC" id="submit">
-        <div id="
-        
-        
-        
-        
-        resultado"></div>
+        <input class="botao" type="submit" value="Calcular IMC" id="submit">
+        <div id="resultado"></div>
 
     </form>
     </div>
 
     <script src="script.js"></script>
+    <footer class="footer">
+       
+        <p>~Desenvolvido por: Daniel & Heloise~</p>
+    </footer>
 </body>
 </html>
